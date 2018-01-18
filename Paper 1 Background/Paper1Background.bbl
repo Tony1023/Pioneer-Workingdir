@@ -1,0 +1,122 @@
+\begin{thebibliography}{22}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Einstein}(1916)}]{relativity1}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Einstein}}
+  (\bibinfo{year}{1916}).
+
+\bibitem[{\citenamefont{Einstein}(1918)}]{relativity2}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Einstein}}
+  (\bibinfo{year}{1918}).
+
+\bibitem[{\citenamefont{Collaboration and Collaboration}()}]{GW}
+\bibinfo{author}{\bibfnamefont{L.~S.} \bibnamefont{Collaboration}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Collaboration}}.
+
+\bibitem[{Vir()}]{Virgo}
+\emph{\bibinfo{title}{Virgo}},
+  \urlprefix\url{http://public.virgo-gw.eu/language/en/#}.
+
+\bibitem[{eLI()}]{eLISA}
+\emph{\bibinfo{title}{elisa}}, \urlprefix\url{url}.
+
+\bibitem[{\citenamefont{Collaboration and Collaboration}(2016)}]{O1}
+\bibinfo{author}{\bibfnamefont{L.~S.} \bibnamefont{Collaboration}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Collaboration}}
+  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Einstein}(1905)}]{spe.relativity}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Einstein}}
+  (\bibinfo{year}{1905}).
+
+\bibitem[{\citenamefont{Weisstein}()}]{Tensor}
+\bibinfo{author}{\bibfnamefont{E.~W.} \bibnamefont{Weisstein}},
+  \emph{\bibinfo{title}{Riemann tensor}},
+  \urlprefix\url{http://mathworld.wolfram.com/RiemannTensor.html}.
+
+\bibitem[{wik()}]{wikitensor}
+\emph{\bibinfo{title}{What is a tensor?}},
+  \urlprefix\url{https://en.wikibooks.org/wiki/General_Relativity/What_is_a_tensor%3F}.
+
+\bibitem[{\citenamefont{Sathyaprakash and Schutz}(2009)}]{SBackground}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Sathyaprakash}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~F.} \bibnamefont{Schutz}}
+  (\bibinfo{year}{2009}),
+  \urlprefix\url{http://www.livingreviews.org/lrr-2009-2}.
+
+\bibitem[{\citenamefont{Caltech}()}]{Interferometer}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Caltech}},
+  \emph{\bibinfo{title}{Ligo's interferometer}},
+  \urlprefix\url{https://www.ligo.caltech.edu/page/ligos-ifo}.
+
+\bibitem[{\citenamefont{LIGO}()}]{MITLIGO}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{LIGO}}, \emph{\bibinfo{title}{A
+  comprehensive overview of advanced ligo}},
+  \urlprefix\url{https://www.advancedligo.mit.edu/summary.html}.
+
+\bibitem[{\citenamefont{Macleod et~al.}()\citenamefont{Macleod, Fairhurst,
+  Hughey, Lundgren, Pekowsky, and J.~Rollins}}]{seismic}
+\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{Macleod}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Fairhurst}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Hughey}},
+  \bibinfo{author}{\bibfnamefont{A.~P.} \bibnamefont{Lundgren}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Pekowsky}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.~R.~S.} \bibnamefont{J.~Rollins}},
+  \urlprefix\url{https://arxiv.org/pdf/1108.0312v3}.
+
+\bibitem[{\citenamefont{Levin}()}]{thermal}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Levin}},
+  \urlprefix\url{http://arxiv.org/pdf/gr-qc/9707013v1.pdf}.
+
+\bibitem[{\citenamefont{Pitkin et~al.}(2011)\citenamefont{Pitkin, Reid, Rowan,
+  and Hough}}]{Noise}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pitkin}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Reid}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rowan}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Hough}}
+  (\bibinfo{year}{2011}).
+
+\bibitem[{Ein()}]{Einstein@Home}
+\emph{\bibinfo{title}{Einstein@home}},
+  \urlprefix\url{https://einstein.phys.uwm.edu/}.
+
+\bibitem[{\citenamefont{CalTech}()}]{timeline}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{CalTech}},
+  \emph{\bibinfo{title}{Ligo timeline}},
+  \urlprefix\url{https://www.ligo.caltech.edu/page/timeline}.
+
+\bibitem[{BHL()}]{BHLIGO}
+\emph{\bibinfo{title}{A brief history of ligo}},
+  \urlprefix\url{https://www.ligo.caltech.edu/system/media_files/binaries/313/original/LIGOHistory.pdf}.
+
+\bibitem[{\citenamefont{Cofield}(2016)}]{Impact}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Cofield}}
+  (\bibinfo{year}{2016}),
+  \urlprefix\url{http://www.space.com/31922-gravitational-waves-detection-what-it-means.html}.
+
+\bibitem[{\citenamefont{Nerlich}(2011)}]{GWTravel}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Nerlich}}
+  (\bibinfo{year}{2011}),
+  \urlprefix\url{http://www.universetoday.com/87529/astronomy-without-a-telescope-gravitational-waves/}.
+
+\bibitem[{KAG()}]{KAGRA}
+\emph{\bibinfo{title}{Kagra}},
+  \urlprefix\url{http://gwcenter.icrr.u-tokyo.ac.jp/en/}.
+
+\bibitem[{GEO()}]{GEO600}
+\emph{\bibinfo{title}{Geo600}}, \urlprefix\url{http://www.geo600.org/}.
+
+\end{thebibliography}

@@ -1,0 +1,58 @@
+% LaTeX/REVTeX style file for Pioneer Academics
+%  (Modeled after one I did for Vassar College Modern Physics Laboratory)
+%
+% Eric Myers <myers@vassar.edu>  - 29 May 2003
+% @(#) $Id: vjmp.sty,v 1.1 2003/06/05 18:07:37 myers Exp myers $
+%======================================================================*
+
+% Change these for each new volume/number:
+
+\def\theVolume{1}
+\def\theMonth{September}
+\def\theYear{2016}
+
+
+% Default values:
+
+\def\theAuthor{Tony Lu}
+\def\shortTitle{}
+\def\pageRange{\thepage}
+
+%%%%%%
+% Fancy running headlines and footlines:
+
+\usepackage{fancyhdr}
+
+\fancypagestyle{titlepage}{%  This is just for the Title Page for each article
+  \fancyhf{}
+  \fancyfoot[R]{{The Pioneer Research Journal\ }{\bf \theVolume}, \pageRange\ (\theYear)}
+  \fancyfoot[C]{\thepage}
+  \fancyfoot[L]{\copyright\  \theYear\ by the author.}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+
+\fancypagestyle{pioneer}{%  This is for each subsequent page, double sided
+  \fancyhf{}
+  \fancyhead[LE,RO]{\em \thepage}
+  \fancyhead[RE]{\em \theAuthor\hskip 1cm}
+  \fancyhead[LO]{\hskip 0cm\em  \if!\shortTitle! \@title \else\shortTitle\fi }
+  %
+  \fancyfoot[LE,RO]{{\em The Pioneer Research Journal}\ }
+  \fancyfoot[C]{}
+  \fancyfoot[RE,LO]{Vol. \theVolume, \theMonth\ \theYear}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+
+\def\blankpage{% print an empty page (usually even page)
+        \onecolumngrid
+        \newpage\null\def\theAuthor{}\newpage}
+
+%%EOF 
+
+
+
+

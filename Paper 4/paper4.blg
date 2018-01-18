@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: paper4.aux
+The style file: apsrev.bst
+Database file #1: Paper3.bib
+Warning--entry type for "CaltechLIGO" isn't style-file defined
+--line 2 of file Paper3.bib
+Warning--entry type for "MitLIGO" isn't style-file defined
+--line 9 of file Paper3.bib
+Warning--I'm ignoring instrument's extra "eprint" field
+--line 33 of file Paper3.bib
+Warning--entry type for "GWTutorial" isn't style-file defined
+--line 36 of file Paper3.bib
+Warning--entry type for "GWTutorial2" isn't style-file defined
+--line 46 of file Paper3.bib
+Warning--entry type for "S6DQ" isn't style-file defined
+--line 55 of file Paper3.bib
+Warning--entry type for "S6Data" isn't style-file defined
+--line 62 of file Paper3.bib
+Warning--entry type for "TLdata" isn't style-file defined
+--line 70 of file Paper3.bib
+Warning--entry type for "blindInj" isn't style-file defined
+--line 77 of file Paper3.bib
+Warning--entry type for "RMS" isn't style-file defined
+--line 92 of file Paper3.bib
+Warning--entry type for "r_squared" isn't style-file defined
+--line 106 of file Paper3.bib
+Warning--entry type for "linereg" isn't style-file defined
+--line 113 of file Paper3.bib
+Warning--entry type for "Candidate" isn't style-file defined
+--line 127 of file Paper3.bib
+Warning--entry type for "nasa" isn't style-file defined
+--line 134 of file Paper3.bib
+Warning--entry type for "PSD" isn't style-file defined
+--line 142 of file Paper3.bib
+Warning--entry type for "TimeConvert1" isn't style-file defined
+--line 148 of file Paper3.bib
+Warning--entry type for "TimeConvert2" isn't style-file defined
+--line 154 of file Paper3.bib
+Database file #2: Paper1Background.bib
+Repeated entry---line 39 of file Paper1Background.bib
+ : @online{MITLIGO
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "BHLIGO" isn't style-file defined
+--line 78 of file Paper1Background.bib
+Warning--entry type for "timeline" isn't style-file defined
+--line 86 of file Paper1Background.bib
+Warning--entry type for "DualDetector" isn't style-file defined
+--line 169 of file Paper1Background.bib
+Database file #3: Paper2Proposal.bib
+I was expecting a `,' or a `}'---line 15 of file Paper2Proposal.bib
+ : 
+ : doi = {http://dx.doi.org/10.1103/PhysRevD.87.022002},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "S5" isn't style-file defined
+--line 29 of file Paper2Proposal.bib
+Warning--entry type for "S6" isn't style-file defined
+--line 37 of file Paper2Proposal.bib
+Warning--entry type for "SNR" isn't style-file defined
+--line 77 of file Paper2Proposal.bib
+(There were 2 error messages)

@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.4.10)  7 JUL 2016 17:45
+entering extended mode
+**"C:/Tony's/Pioneer/Paper 3 Preliminary Analysis and Results/Paper1Background.
+bib"
+
+("C:/Tony's/Pioneer/Paper 3 Preliminary Analysis and Results/Paper1Background.b
+ib"
+Overfull \hbox (110.38496pt too wide) in paragraph at lines 18--23
+[]\tenrm @onlineTensor, au-thor = Weis-stein, Eric W., ti-tle = Rie-mann Ten-so
+r, url = http://mathworld.wolfram.com/RiemannTensor.html,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm o
+.\tenrm n
+.\tenrm l
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.29 ...= {http://public.virgo-gw.eu/language/en/#
+                                                  },
+? 
+! Emergency stop.
+l.29 ...= {http://public.virgo-gw.eu/language/en/#
+                                                  },
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

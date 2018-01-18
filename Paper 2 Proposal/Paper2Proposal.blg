@@ -1,0 +1,22 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Paper2Proposal.aux
+The style file: apsrev.bst
+Database file #1: Paper2Proposal.bib
+I was expecting a `,' or a `}'---line 15 of file Paper2Proposal.bib
+ : 
+ : doi = {http://dx.doi.org/10.1103/PhysRevD.87.022002},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "S5" isn't style-file defined
+--line 36 of file Paper2Proposal.bib
+Warning--entry type for "S6" isn't style-file defined
+--line 44 of file Paper2Proposal.bib
+Warning--entry type for "GWHLO" isn't style-file defined
+--line 52 of file Paper2Proposal.bib
+Warning--entry type for "LOSC" isn't style-file defined
+--line 60 of file Paper2Proposal.bib
+Warning--entry type for "FFT" isn't style-file defined
+--line 68 of file Paper2Proposal.bib
+Warning--entry type for "SNR" isn't style-file defined
+--line 84 of file Paper2Proposal.bib
+Warning--empty note in GW
+(There was 1 error message)

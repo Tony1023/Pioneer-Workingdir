@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Paper3.aux
+The style file: apsrev.bst
+Database file #1: Paper3.bib
+Warning--entry type for "CaltechLIGO" isn't style-file defined
+--line 2 of file Paper3.bib
+Warning--entry type for "MitLIGO" isn't style-file defined
+--line 9 of file Paper3.bib
+Warning--entry type for "GWTutorial" isn't style-file defined
+--line 31 of file Paper3.bib
+Warning--entry type for "GWTutorial2" isn't style-file defined
+--line 41 of file Paper3.bib
+Warning--entry type for "S6DQ" isn't style-file defined
+--line 50 of file Paper3.bib
+Warning--entry type for "S6Data" isn't style-file defined
+--line 57 of file Paper3.bib
+Warning--entry type for "TLdata" isn't style-file defined
+--line 65 of file Paper3.bib
+Warning--entry type for "blindInj" isn't style-file defined
+--line 72 of file Paper3.bib
+Warning--entry type for "RMS" isn't style-file defined
+--line 87 of file Paper3.bib
+Warning--entry type for "regression" isn't style-file defined
+--line 94 of file Paper3.bib
+Warning--entry type for "r_squared" isn't style-file defined
+--line 101 of file Paper3.bib
+Database file #2: Paper1Background.bib
+Repeated entry---line 35 of file Paper1Background.bib
+ : @online{MITLIGO
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "BHLIGO" isn't style-file defined
+--line 70 of file Paper1Background.bib
+Warning--entry type for "timeline" isn't style-file defined
+--line 78 of file Paper1Background.bib
+Database file #3: Paper2Proposal.bib
+I was expecting a `,' or a `}'---line 15 of file Paper2Proposal.bib
+ : 
+ : doi = {http://dx.doi.org/10.1103/PhysRevD.87.022002},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 19 of file Paper2Proposal.bib
+ : @article {O1
+ :             ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "S5" isn't style-file defined
+--line 36 of file Paper2Proposal.bib
+Warning--entry type for "S6" isn't style-file defined
+--line 44 of file Paper2Proposal.bib
+Warning--entry type for "SNR" isn't style-file defined
+--line 84 of file Paper2Proposal.bib
+I was expecting a `,' or a `}'---line 87 of file Paper2Proposal.bib
+ :  
+ :  title = {Signal-to-noise Ratio},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "endnote27"
+(There were 4 error messages)

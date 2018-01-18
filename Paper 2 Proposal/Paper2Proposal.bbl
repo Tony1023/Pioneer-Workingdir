@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{arXiv:1602.03846}()}]{GW}
+\bibinfo{author}{\bibnamefont{arXiv:1602.03846}}.
+
+\bibitem[{\citenamefont{Abbott}(2016)}]{O1}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Abbott}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{116}},
+  \bibinfo{pages}{061102} (\bibinfo{year}{2016}).
+
+\bibitem[{S5()}]{S5}
+\emph{\bibinfo{title}{The s5 data release}},
+  \urlprefix\url{https://losc.ligo.org/S5/}.
+
+\bibitem[{S6()}]{S6}
+\emph{\bibinfo{title}{The s6 data release}},
+  \urlprefix\url{https://losc.ligo.org/S6/}.
+
+\bibitem[{GWH()}]{GWHLO}
+\emph{\bibinfo{title}{Data release for event gw150914}},
+  \urlprefix\url{https://losc.ligo.org/events/GW150914/}.
+
+\bibitem[{\citenamefont{Weisstein}()}]{FFT}
+\bibinfo{author}{\bibfnamefont{E.~W.} \bibnamefont{Weisstein}},
+  \emph{\bibinfo{title}{"fast fourier transform." from mathworld--a wolfram web
+  resource.}},
+  \urlprefix\url{http://mathworld.wolfram.com/FastFourierTransform.html}.
+
+\bibitem[{\citenamefont{Johnson}(2006)}]{SNR}
+\bibinfo{author}{\bibfnamefont{D.~H.} \bibnamefont{Johnson}},
+  \emph{\bibinfo{title}{Signal-to-noise ratio}} (\bibinfo{year}{2006}),
+  \urlprefix\url{http://www.scholarpedia.org/article/Signal-to-noise_ratio}.
+
+\bibitem[{\citenamefont{Aasi}(2013)}]{S6himass}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Aasi}}, \bibinfo{journal}{Phys.
+  Rev. D} \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{022002}
+  (\bibinfo{year}{2013}).
+
+\bibitem[{LOS()}]{LOSC}
+\emph{\bibinfo{title}{Ligo open science center}},
+  \urlprefix\url{https://losc.ligo.org/about/}.
+
+\bibitem[{\citenamefont{Woodward}(1960)}]{MF}
+\bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Woodward}},
+  \bibinfo{journal}{IRE Transactions on Information Theory}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{311} (\bibinfo{year}{1960}).
+
+\end{thebibliography}

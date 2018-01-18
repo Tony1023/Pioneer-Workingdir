@@ -1,0 +1,69 @@
+\documentclass[aps,prl,preprint]{revtex4}
+%\documentclass[aps,prd,twocolumn,twoside,floatfix]{revtex4}
+
+\usepackage{pioneer}
+	\def\theAuthor{Tony Lu}
+	\def\theYear{2016}
+\usepackage{graphicx}
+\usepackage{bibentry}
+
+\begin{document}
+\pagestyle{pioneer}
+\date{May 2016}
+\preprint{}
+\title{Was it Possible for Earlier LIGO to Detect GW150914?}
+\author{Tony Lu}
+
+
+\begin{abstract}
+This paper provides information on my research question and plan using LIGO data. It starts with an introduction and proceeds to a statement of my research question. It then gives a outline of my project, including description of research plan, procedure, sources of data, and some techniques in data analysis. Finally the assisting programming software which I intend to use is listed.
+\end{abstract}
+
+\maketitle
+
+\section{Overview}
+On September 14, 2015, LIGO made the first direct detection of gravitational wave in human history\cite{GW}, and it was announced by the LIGO collaboration in Feburary in the following year\cite{O1}. The detection, obviously, was not merely a coincidence. Rather, continual enhancement of the LIGO instruments contributes a great deal to this final detection. To find out the significance and implications of such improvement, some research can be done on it.
+\par This paper starts with a description of the research question. It then proceeds to provides some pertinent supplementary background information about LIGO. Then a detailed description of research plan and methodology is given.
+%===============================================
+
+\section{Research Question Description}
+One of the deciding factors that made the detection of elusive gravitational waves possible is the sensitivity of the equipment. Over the LIGO's S5\cite{S5}, S6\cite{S6} and O1\cite{O1} (which the scientists referred to as S7) runs, the sensitivity improved significantly each time, with effective attenuation of noise.
+\par At some degree, the detection seemed very much like a coincidence, for no detection in the past two decades was made until the one made within just one week after the official launch of Advanced LIGO. So here's the question: was the detection a coincidence? Was LIGO at any early stage sensitive enough to make this detection?
+%===============================================
+
+\section{Outline of Project}
+This section outlines the research plan. It gives the overall procedure, the sources of data, and the major methods of data analyzing.
+
+\subsection{Procedure}
+The procedure of the research is provided in this section as followed.
+\subsubsection{Obtain Template}
+The original strain data of GW150914 that I'm going to use as the signal for my own injection comes from the reconstructed binary-black-hole template waveform the LIGO scientists used to model the signal\cite{GWHLO} (from HLO, which I pick specifically). This template will be used as both the raw injection signal and the template later used to recover the data from that injection.
+\subsubsection{Find Background for Injection}
+The background (pure noise, in this case) of my injection is going to be selected from one segment of data from the whole LIGO S6 run. The segment should contain nothing but pure noise, but because the template lasts for about two seconds only, the pure-noise interval should be easy to find.
+\par To ensure that the segment contains only noise, I will compute the fast Fourier Transform(FFT)\cite{FFT}. If the result is an amplitude spectrum with no significant spikes, the segment may be considered to be only pure noise.
+\subsubsection{Make Injection}
+This step should be easy. Superpose the template to the noise segment to make the injection. Because the strain amplitude of pure noise is relatively even over the whole run, one randomly chosen piece (from the previous step) is enough.
+\subsubsection{Data Recovery}
+Next I'm going to recover the data. I am going to use my template to calculate the signal-to-noise ratio(SNR)\cite{SNR} by matched filtering. The template is the one obtained at the first step. Because GW150914 is also a coalescence of binary black hole system\cite{GW}, I will compare it to other "triggers"\cite{S6himass} in the whole S6 run to see if the SNR is significant enough.
+\subsubsection{Evaluating the Result}
+Comparing my results to what they got in S6\cite{S6himass}, if I could get any credible result, I will proceed to do the same research on S5 data. Eventuanlly, I could reach a conclusion on whether the earlier stages of LIGO was capable of making real detections like GW150914 and whether or not it really was a coincidence.
+
+\subsection{Source}
+The data I'm going to use are all obtained from LIGO Open Science Center\cite{LOSC}, which is one of the official websites of LIGO Collaboration.
+\subsection{Important Algorithms}
+There are two mainly used algorithms in my intended research plan: fast Fourier Transform and matched filter.
+\par Fast Fourier Transform(FFT)\cite{FFT} converts a signal from its original domain to a frequency domain. In this case, it converts a signal orignally represented by time-varying amplitude to a representation of amplitude versus frequency. Therefore, instead of a graph of superposed wavelets, the amplitude of each wavelet could be seen, so the loudest one could be determined.
+\par Matched filter\cite{MF} is obtained in a signal process. It aims to determine the presence of a know signal which we refer to as "template" in a unknown signal. An SNR could be computed, which indicates the relative amplitude of the desired signal in the environment.
+\par For more technical details, please refer to \cite{FFT} and \cite{MF}.
+%================================================
+
+\section{Software}
+The main software for analysis is Python 2.7.11 and Anaconda 2.
+%===================================================
+
+\section{Summary}
+To sum up, my project is aims to figure out the possibility of earlier stages of LIGO to make the GW150914 detection. The main process is to take the actual data of GW150914 as the template, the injection material, to make my own injection on S6 (or S5) data background, and then try to recover the data. This analysis will be done by Python codes with Anaconda 2.
+%==================================================
+
+\bibliography{Paper2Proposal}
+\end{document}
